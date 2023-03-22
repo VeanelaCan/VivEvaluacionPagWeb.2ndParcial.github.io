@@ -1,0 +1,577 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .menu_principal {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 144px;
+    width: 100%;
+}
+
+body .menu_principal .logo {
+    height: 52px;
+    width: 250px;
+}
+
+body .menu_principal .logo img {
+    vertical-align: top; 
+}
+
+body .menu_principal .logo .isotipo {
+    display: none;
+}
+
+body .menu_principal .menu_items {
+    align-items: center;
+    color: #118596;
+    display: flex;
+}
+
+body .menu_principal .menu_items > img {
+    display: none;
+}
+
+body .menu_principal .menu_items .items {
+    display: flex;
+}
+
+body .menu_principal .menu_items .items p {
+    padding: 8px 25px;
+}
+
+body .menu_principal .menu_items .boton  {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    padding: 16px 30px; 
+}
+
+
+body .Section1 {
+    position: relative;
+}
+
+body .Section1 .Imagen img {
+    vertical-align: top;
+    width: 100%;
+}
+
+body .Section1 .titulo-boton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+}
+
+body .Section1 .titulo-boton h1{
+    color: #ffb600;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Section1 .titulo-boton .ButtonY {
+    background: #ffb600;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    padding: 16px 32px;
+}
+
+body .Beneficios{
+    display: flex;
+    justify-content: space-between;
+    margin: 144px 0;
+    padding: 0 144px;
+}
+
+body .Beneficios .Beneficios-card{
+    display: flex;
+    flex-wrap: wrap;
+    height: 290px;
+    justify-content: center;
+    margin: 10px;
+    width: 500px;
+}
+
+body .Beneficios .Beneficios-card span{
+    font-size: 88px;
+    margin-bottom: 24px;
+}
+
+body .Beneficios .Beneficios-card h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+body .Beneficios .Beneficios-card p{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+body .MasInformacion{
+    background-color: #e1e1e1;
+    padding: 89px 144px;
+}
+
+body .MasInformacion .Contenido {
+    display: flex;
+    flex-wrap: wrap;
+    height: 212px;
+    margin-bottom: 24px;
+}
+
+body .MasInformacion .Contenido .titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .MasInformacion .Contenido .titulo > h4 {
+    font-size: 40px; 
+    text-align: center;
+    width: 100%;
+}
+
+body .MasInformacion .Contenido > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .MasInformacion .Contenido .titulo > span {
+    border: 1px solid #118596;
+    width: 15%;
+}
+
+body .Cards {
+    display: flex;
+    padding: 89px 144px;
+}
+
+body .Cards .Card1 {
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin: 0 21px;
+}
+
+body .Cards .Card1 .ContenidoCard {
+    flex: 90%;
+    /* width: 100%; */
+    padding: 55px 34px;
+    text-align: center;
+}
+
+body .Cards .Card1 .ContenidoCard .TituloCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .Cards .Card1 .ContenidoCard .TituloCard > h4{
+    font-size: 34px;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Cards .Card1 .ContenidoCard .TituloCard > span {
+    border: 2px solid #118596;
+    width: 60%;
+}
+
+body .Cards .Card1 .ContenidoCard > p {
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+body .Cards .Card1 .ContenidoCard .ImagenCard{
+    flex: 90%;
+}
+
+body .Cards .Card1 .ImagenCard > img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+body .Cards .Card1 .ContenidoCard > button {
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    padding: 16px 32px;
+}
+
+body .Info{
+    padding: 89px 144px;
+}
+
+body .Info .Contenido{
+    display: flex;
+    flex-wrap: wrap;
+    height: 212px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+body .Info .Contenido .titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Info .Contenido .titulo > h4 {
+    font-size: 40px; 
+    text-align: center;
+    width: 100%;
+}
+
+body .Info .Contenido .titulo > span {
+    border: 1px solid #118596;
+    width: 15%;
+}
+
+body .Info .Contenido > p {
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+body .Info .Contenido > button {
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    padding: 14px 28px;
+}
+
+body .Footer {
+    background-color: #e1e1e1;
+}
+
+body .Footer .ContentFooter {
+    display: flex;
+    padding: 16px 32px;
+}
+
+body .Footer .ContentFooter .FooterContentLeft {
+    margin-left: 130px;
+    margin-top: 170px;
+    margin-bottom: 140px;
+}
+
+body .Footer .ContentFooter .FooterContentLeft > p {
+    box-align: center;
+    size: 16px;
+}
+
+body .Footer .ContentFooter .FooterContentLeft .TermsOfServicePr {
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+body .Footer .ContentFooter .FooterContentLeft .TermsOfServicePr > span {
+    border: 1px solid #118596;
+}
+
+body .Footer .ContentFooter .FooterContentRight {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 233px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FCampus{
+    size: 16px;
+    width: 112px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FCampus > p {
+    padding-bottom: 24px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FMenu {
+    margin-left: 80px;
+    margin-right: 80px;
+    size: 16px;
+    width: 112px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FMenu > p {
+    padding-bottom: 24px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FContact {
+    size: 16px;
+    width: 112px;
+}
+
+body .Footer .ContentFooter .FooterContentRight .FContact > p {
+    padding-bottom: 24px;
+}
+
+/*Media Query
+1024
+830
+360*/
+
+@media only screen and (max-width: 1024px) {
+    body .menu_principal{
+        padding: 21px 24px;
+    }
+
+    body .Section1 .titulo-boton h1{
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    body .Beneficios .Beneficios-card span{
+        font-size: 44px;
+        margin-bottom: 24px;
+    }
+
+    body .Beneficios .Beneficios-card h2{
+        font-size: 20px;
+    }
+
+    body .Beneficios .Beneficios-card p{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    body .MasInformacion .Contenido {
+        display: flex;
+        flex-wrap: wrap;
+        height: 212px;
+        margin-bottom: 24px;
+    }
+
+    body .MasInformacion .Contenido .titulo > h4{
+        font-size: 30px;
+    }
+
+    body .MasInformacion .Contenido > p{
+        font-size: 20px;
+    }
+
+    body .Cards {
+        padding: 89px 144px;
+    }
+    
+    body .Cards .Card1 .ContenidoCard {
+        flex: 90%;
+        width: 100%;
+        padding: 55px 34px;
+        text-align: center;
+    }
+    
+    body .Cards .Card1 .ContenidoCard .TituloCard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    body .Cards .Card1 .ContenidoCard .TituloCard > h4{
+        font-size: 24px;
+        margin-bottom: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    body .Cards .Card1 .ContenidoCard .TituloCard > span {
+        border: 2px solid #118596;
+        width: 60%;
+    }
+    
+    body .Cards .Card1 .ContenidoCard > p {
+        font-size: 18px;
+        margin: 24px 0;
+    }
+    
+    body .Cards .Card1 .ContenidoCard .ImagenCard{
+        flex: 90%;
+    }
+    
+    body .Cards .Card1 .ImagenCard > img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    body .Cards .Card1 .ContenidoCard > button {
+        background: none;
+        border: 2px solid #118596;
+        border-radius: 5px;
+        color: #118596;
+        padding: 16px 28px;
+    }
+
+    body .Info .Contenido .titulo{
+        margin-bottom: 15px;
+    }
+
+    body .Info .Contenido .titulo > h4{
+        font-size: 30px;
+    }
+
+    body .Info .Contenido > p{
+        font-size: 18px;
+    }
+
+    body .Info .Contenido > button {
+        padding: 10px 24px;
+    }
+
+    body .Footer {
+        background-color: #e1e1e1;
+    }
+    
+    body .Footer .ContentFooter {
+        display: flex;
+        padding: 16px 32px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentLeft {
+        margin-left: 130px;
+        margin-top: 170px;
+        margin-bottom: 140px;
+        width: 300px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentLeft > p {
+        box-align: center;
+        size: 15px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentLeft .TermsOfServicePr {
+        display: flex;
+        margin-top: 16px;
+        gap: 16px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentLeft .TermsOfServicePr > p{
+        font-size: 15px;
+    }
+
+    body .Footer .ContentFooter .FooterContentLeft .TermsOfServicePr > span {
+        border: 1px solid #118596;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight {
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FCampus{
+        size: 14px;
+        width: 100px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FCampus > p {
+        padding-bottom: 24px;
+        font-size: 15px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FMenu {
+        margin-left: 40px;
+        margin-right: 40px;
+        size: 16px;
+        width: 112px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FMenu > p {
+        padding-bottom: 24px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FContact {
+        size: 16px;
+        width: 112px;
+    }
+    
+    body .Footer .ContentFooter .FooterContentRight .FContact > p {
+        padding-bottom: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+    body .menu_principal {
+        background: #000000;
+        padding: 20px 23px;
+    }
+
+    body .menu_principal .menu_items > img {
+        display: inherit;
+    }
+
+    body .menu_principal .menu_items .items{
+        display: none;
+    }
+
+    body .menu_principal .menu_items .boton{
+        display: none;
+    }
+
+    body .Section1 .titulo-boton > h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    body .Footer .ContentFooter .FooterContentRight .FCampus{
+        size: 14px;
+        width: 100px;
+    }
+
+    body .Footer .ContentFooter .FooterContentRight .FMenu {
+        margin-left: 10px;
+        margin-right: 20px;
+        size: 10px;
+        width: 110px;
+    }
+
+    body .Footer .ContentFooter .FooterContentRight .FContact {
+        size: 16px;
+        width: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+    body .menu_principal{
+        background-color: #000000;
+    }
+    
+    body .menu_principal .logo .normal{
+        display: none;
+    }
+
+    body .menu_principal .logo .isotipo {
+    display: unset;
+    }
+}
